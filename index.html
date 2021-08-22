@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+<body style="padding: 40px;">
+    <div class="container-fluid">
+        <div class="border border-dark">
+        <form class="form-inline">
+            <div class="form-group">
+            <label for="fname" ><b>First name </b></label><br><br>
+            <input   type="text" id="fname" name="fname" class="form-control"  placeholder="Your first name" size="50"> <br><br>
+            <label for="lname" ><b>Last name </b> </label><br><br>
+            <input   type="text" id="lname" name="lname" class="form-control"  placeholder="Your last name"  size="50"><br><br>
+            <label for="email"><b>Email </b></label><br><br>
+            <input type="email" id="email" name="email" class="form-control"  placeholder="Enter your email address" size="50">
+            <br><br>
+            <label for="address" ><b>Address </b></label><br>
+            <br>
+            <textarea id="address" name="Address"  class="form-control" placeholder="Your  Postal Address" rows="4" cols="45"></textarea>
+            <br><br>
+            <label for="state"><b>State </b></label><br><br>
+            <select name="state" id="state"  class="form-control" >
+            <option value="Tamil Nadu"> Tamil Nadu</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Delhi">Delhi</option>
+            </select>
+            <br><br>
+            <label for="country"><b>Country</b></label><br><br>
+            <select name=" country" id= " country" class="form-control" >
+            <option value="India"> India</option>
+            <option value="US">US</option>
+            <option value="Australia">Australia</option>
+            </select>
+            <br><br>
+            <label for="city" ><b>City </b></label><br><br>
+            <input   type="text" id="city" name="city" class="form-control"  placeholder="City" size="50"> <br><br>
+            <label for="zcode" ><b>Zip Code </b></label><br><br>
+            <input   type="text" id="zcode" class="form-control"  name="zcode" placeholder="Zip Code" size="50"> <br><br>
+
+
+            <label for="Package"><b>Registration Package </b></label><br><br>
+            <input type="radio" value="Standard Registration ($50 USD)" id="sredistration" name="Registration package">
+            <label for=" sredistration">Standard Registration ($50 USD)</label>   <br><br>
+            <input type="radio" id="predistration" name="Registration package" value=" Premium Registration ($90 USD)">
+            <label for="predistration"> Premium Registration ($90 USD)</label><br><br>
+            <input type="radio" id="credistration" name="Registration package" value=" Corporate Registration ($200 USD)">
+            <label for="credistration">   Corporate  Registration ($90 USD)</label><br><br>
+
+            <label for="AccPackage"><b>Accommodation Package </b></label><br><br><normal>
+            <input type="radio" value="None" id="no" name="Accommodation package">
+            <label for=" no">None</label>   <br><br>
+            <input type="radio" id="threestar" name="Accommodation package" value="2 Days in 3 Star Hotel($300 USD) ">
+            <label for="threestar">2 Days in 3 Star Hotel($300 USD)</label><br><br>
+            <input type="radio" id="fourstar" name="Accommodation package" value=" 2 Days in 4 Star Hotel($300 USD) ">
+            <label for="fourstar"> 2 Days in 4 Star Hotel($300 USD)   </label><br><br></normal>
+            
+            
+            <input type="checkbox" value="t-shirt" name="shopping" id="buy">
+            <label for="buy"> I'm also buying the t-shirt of he event ($10USD)</label><br><br>
+            
+            <label for="Discount"><b> Discount</b></label><br><br>
+            <input type="radio" value="Early bird discount(-$10 USD)" id=" ediscount" name= " Discount">
+            <label for=" ediscount"> Early bird discount(-$10 USD)</label>   <br><br>
+            <input type="radio" id="sdiscount" name="Discount " value="  Student Discount">
+            <label for="sdiscount"> Student Discount </label><br><br>
+            <input type="radio" id="ndiscount" name="Discount" value="No thanks, I don't want a discount ">
+            <label for=" ndiscount">   No thanks, I don't want a discount </label><br><br><br><br><br>
+            <input type="checkbox" value="read and agree conditions" id=" agree" name="condition">
+            <label for="agree">I have read and agree to the waiver</label><br>
+            <br>
+            <input type="checkbox" value="terms and policy" id=" accept" name="condition">
+            <label for="accept">I have read and accept the <a href="https://www.termsfeed.com/help/how-can-i-link-to-my-terms-conditions/"> Terms of service</a> and <a href="https://www.termsfeed.com/help/how-can-i-link-to-my-terms-conditions/"> Privacy policy</a></label>
+            <br><br><br>
+            <input type="button" class="btn btn-primary" value="Submit">
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
